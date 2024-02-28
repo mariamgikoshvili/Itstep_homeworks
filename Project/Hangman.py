@@ -71,7 +71,6 @@ def ask_input(letters_guessed,word_length):
 def game():
     chosen_word = random.choice(word_list)
     word_length = len(chosen_word)
-    print(chosen_word)
     letters_guessed = []
     lives = 6
     display = []
